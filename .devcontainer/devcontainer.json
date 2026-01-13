@@ -1,4 +1,12 @@
 {
-    "name": "dev",
+    "name": "wpi",
     "image": "mcr.microsoft.com/devcontainers/universal:linux",
+    "extensions": [
+        "editorconfig.editorconfig",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit"
+    ],
+    "settings": {
+        "editor.formatOnSave": true
+    }
 }
