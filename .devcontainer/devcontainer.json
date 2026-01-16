@@ -13,5 +13,6 @@
     ],
     "settings": {
         "editor.formatOnSave": true
-    }
+    },
+    "postCreateCommand": "sudo apt update"
 }
